@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(206, 206, 206);
 }
 
 main {
@@ -39,19 +39,22 @@ button {
     width: 100%;
     padding: 5px 20px;
     background-color: aquamarine;
-    border-radius: 8px;;
+    border-radius: 8px;
+    ;
     border: 1px solid #eaeaea;
     transition: 0.3s background-color ease-in;
     text-transform: uppercase;
     color: #404040;
     font-weight: bold;
 }
+
 button:hover {
     background-color: deepskyblue;
 
 }
 
-#passGen, #passOutput {
+#passGen,
+#passOutput {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -72,6 +75,7 @@ button:hover {
     align-items: center;
     gap: 8px;
 }
+
 .flex-col {
     display: flex;
     flex-direction: column;
